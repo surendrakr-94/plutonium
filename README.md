@@ -76,4 +76,23 @@ For paid app user and the user has insufficient balance. We send an error that t
 For free app user, we dont check user's balance and create the order with 0 amount.
 
 
+"name": "Surendra",
+	"balance":100
+        "address":"Bihar Patna"
+	"age": 70,
+ 	"gender": "male", 
+    
+    "isFreeAppUser":"true"
 
+
+
+
+
+
+
+{
+"name":Catcher in the Rye
+"category": String,
+"price":
+          
+        },

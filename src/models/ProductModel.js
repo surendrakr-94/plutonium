@@ -12,6 +12,7 @@ const ProductSchema = new mongoose.Schema(
       { timestamps: true }
     );
     
+    
 
 
-module.exports = mongoose.model('productsk', ProductSchema) //users
+module.exports = mongoose.model('skProduct', ProductSchema) //users

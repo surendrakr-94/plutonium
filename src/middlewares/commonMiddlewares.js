@@ -1,14 +1,17 @@
- const statusCheck= function ( req, res, next) {
+//  
+// validation checking in the middlewarefolder
+ 
+ const mid1= function ( req, res, next) {
     let {isfreeappuser}=req.headers
     if(isfreeappuser === undefined|| isfreeappuser==""){
-        res.send("Request is missing a mandatory header")
+        res.send("data is missing ")
     }else{
     req.isFreeAppUser=isfreeappuser;
     next()
     }
 }
 
-module.exports.statusCheck= statusCheck
+module.exports.mid1= mid1
 
 /*const mid1= function ( req, res, next) {
     req.falana= "hi there. i am adding something new to the req object"

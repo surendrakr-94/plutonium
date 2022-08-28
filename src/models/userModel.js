@@ -26,7 +26,7 @@ const userSchema = new mongoose.Schema( {
     // cars: [ String  ]
 }, { timestamps: true });
 
-module.exports = mongoose.model('Userksy', userSchema) //users
+module.exports = mongoose.model('skUser', userSchema) //users
 
 
 

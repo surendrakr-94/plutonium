@@ -18,7 +18,7 @@ const createOrder = async function (req, res) {
   if (!(usersId.includes(data.userId))) {
     return res.send("User Id is not valid");
   }
-
+// product validation
   let product = await ProductModel.find().select({ _id: 1 });
   let productsId = product.map(function (x) {
     return x._id.toString();
